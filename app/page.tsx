@@ -1,4 +1,8 @@
+import Map from "./map"; 
+
 export default function Page() {
+
+  const labName = "江崎研究室"
   return (
     // 中央揃えで表示
     <div className="p-5 pb-32 flex flex-col items-center">
@@ -17,8 +21,8 @@ export default function Page() {
         border-4 border-gray-200 rounded-xl
       ">
         <div className="w-full">
-          <h2 className="mb-3 text-blue-600 text-2xl font-bold">
-            濱口 宝（はまぐち たから）
+          <h2 className="mb-3 text-red-600 text-2xl font-bold">
+            北仲 一登（きたなか かずと）
           </h2>
 
           <p>
@@ -31,6 +35,15 @@ export default function Page() {
 
         <div className="w-32">
           <img src="programmer.png" alt="担当者" />
+        </div>
+        <div className="w-full flex flex-row gap-5">
+
+          <div className="w-1/3 h-96 bg-gray-300">
+
+            <Map />
+
+          </div>
+
         </div>
       </div>
     </div>

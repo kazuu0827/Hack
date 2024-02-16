@@ -20,6 +20,15 @@ export default function Menu() {
           日記
         </Link>
       </li>
+      <li> 
+
+        <Link href="/janken"> 
+
+         じゃんけん 
+        </Link> 
+
+      </li> 
+
     </ul>
   );
 };
